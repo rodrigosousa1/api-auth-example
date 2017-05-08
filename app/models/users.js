@@ -1,4 +1,4 @@
-//list of users
+//fake list of users
 var users = [
     { 
         id: 1,
