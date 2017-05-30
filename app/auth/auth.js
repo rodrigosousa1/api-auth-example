@@ -1,7 +1,7 @@
 var passport = require('passport');
 var ExtractJwt = require('passport-jwt').ExtractJwt;
 var users = require('../models/users.js');
-var cfg = require('../auth/config.js');
+var cfg = require('./config.js');
 var JwtStrategy = require('passport-jwt').Strategy;
 var opts = {
     secretOrKey: cfg.jwtSecret,
